@@ -1,35 +1,35 @@
-# Ethora Chat Component: a single npm for your React chat
+# Chat Component: the simplest way to add chat to your React app
 
-![GitHub watchers](https://img.shields.io/github/watchers/dappros/ethora-chat-component) ![GitHub forks](https://img.shields.io/github/forks/dappros/ethora-chat-component) ![GitHub Repo stars](https://img.shields.io/github/stars/dappros/ethora-chat-component) ![GitHub repo size](https://img.shields.io/github/repo-size/dappros/ethora-chat-component) ![GitHub language count](https://img.shields.io/github/languages/count/dappros/ethora-chat-component) ![GitHub top language](https://img.shields.io/github/languages/top/dappros/ethora-chat-component) <a href="https://codeclimate.com/github/dappros/ethora-chat-component/maintainability"><img src="https://api.codeclimate.com/v1/badges/715c6f3ffb08de5ca621/maintainability" /></a> ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/dappros/ethora-chat-component/main) ![GitHub issues](https://img.shields.io/github/issues/dappros/ethora-chat-component) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/dappros/ethora-chat-component) ![GitHub](https://img.shields.io/github/license/dappros/ethora-chat-component) ![GitHub contributors](https://img.shields.io/github/contributors/dappros/ethora-chat-component)
+<br /><img src="https://github.com/YusukeM317/ChatRoom_ERC721_ERC1155_Integration/blob/main/img/chat interface.png" width="860" />
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens)
+## About this Chat Component
 
-[![Discord](https://img.shields.io/badge/%3Cethora%3E-%237289DA.svg?style=flat&logo=discord&logoColor=white)](https://discord.gg/Sm6bAHA3ZC) [![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fdappros%2Fethora)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fdappros%2Fethora%2F&via=tarasfilatov&text=check%20out%20Ethora%20%23web3%20%23social%20app%20engine&hashtags=lowcode%2Creactnative%2Copensource%2Cnocode) [![Website](https://img.shields.io/website?url=https%3A%2F%2Fethora.com%2F)](https://ethora.com/) [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCRvrXwMOU0WBkRZyFlU7V_g)](https://www.youtube.com/channel/UCRvrXwMOU0WBkRZyFlU7V_g)
-
-## About Chat Component
-
-Ethora Chat Component allows you to build a functioning chat room super quickly.
+This Chat Component allows you to build a functioning chat room super quickly.
 Sounds simple and is easy to build your app with.
 Uses XMPP chat protocol and ejabberd chat server to provide your users with a seamless instant messaging experience.
 
-Once you need more functionality however you will be pleasantly surprised. Our Ethora platform behind the chat component offers a plethora of functionalities around chat/social, user profiles, digital wallets, business documents exchange, digital collectables, web3 and AI bots. The history behind Chat Component is following. First, we have built a low-code “super app” engine called Ethora: https://github.com/dappros/ethora/ which we used to drastically speed up app development for our clients. Afterwards, we have open-sourced it for the benefit of other developers. Later on, we realized that whilst developers love what Ethora can do, many of them don’t need such a complex engine with all bells and whistles but a steep learning curver. In most cases you’re after a certain functionality (like a simple chat room) and you need it quick.
+Once you need more functionality however you will be pleasantly surprised. Our platform behind the chat component offers a plethora of functionalities around chat/social, user profiles, digital wallets, business documents exchange, digital collectables, web3 and AI bots. The history behind Chat Component is following. First, we have built a low-code “super app” engine which we used to drastically speed up app development for our clients. Afterwards, we have open-sourced it for the benefit of other developers. Later on, we realized that whilst developers love what we can do, many of them don’t need such a complex engine with all bells and whistles but a steep learning curver. In most cases you’re after a certain functionality (like a simple chat room) and you need it quick.
 
-Enter Ethora Chat Component which allows you to quickly implement your chat room experience!
-
-If / once you need additional functionalities you will have options like: (a) build them yourself on top of chat component; (b) peek into or use code from Ethora open-source monorepo https://github.com/dappros/ethora/ or (c) seek help from Ethora team or other developers at our forum: https://forum.ethora.com/ or Discord server: https://discord.gg/Sm6bAHA3ZC
+Enter this Chat Component which allows you to quickly implement your chat room experience!
 
 Note: scroll below for use cases and functionality break down of this Chat Component.
 
-## How to build your chat room in 5 minutes
+
+## Skills used
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logno=typescript&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens)
+
+
+## How to build your chat room on the spot
 
 1. npm create vite@latest
 2. specify a name for your project (e.g. "vite-project")
 3. select framework and variant (for example, React -> Typescript but may be different depending on your project requirements, it will work with plain Javascript too)
 
-<img src="https://github.com/dappros/ethora-chat-component/blob/main/img/readme01.png" width="500" />
+<img src="https://github.com/YusukeM317/ChatRoom_ERC721_ERC1155_Integration/blob/main/img/readme01.png" width="500" />
 
-<img src="https://github.com/dappros/ethora-chat-component/blob/main/img/readme02.png" width="500" />
+<img src="https://github.com/YusukeM317/ChatRoom_ERC721_ERC1155_Integration/blob/main/img/readme02.png" width="500" />
 
 4. cd vite-project _(use your name instead of "vite-project")_
 5. npm i
@@ -56,15 +56,15 @@ npm run dev
 ```
 
 you should see something like this:
-<br /><img src="https://github.com/dappros/ethora-chat-component/blob/main/img/readme03.png" width="350" />
+<br /><img src="https://github.com/YusukeM317/ChatRoom_ERC721_ERC1155_Integration/blob/main/img/readme03.png" width="350" />
 
-8. Open http://localhost:5173/ in your browser
+9. Open http://localhost:5173/ in your browser
 
 Voilà - your chat app should work like so:
 
-<img src="https://github.com/dappros/ethora-chat-component/blob/main/img/readme_animation.gif" width="860" />
+<img src="https://github.com/YusukeM317/ChatRoom_ERC721_ERC1155_Integration/blob/main/img/readme_animation.gif" width="860" />
 
-ℹ️ Note: your Ethora App, User and Chat credentials are hard-coded and login screen is bypassed. This is done so that you can scaffold and test the functionality quickly.
+ℹ️ Note: User and Chat credentials are hard-coded and login screen is bypassed. This is done so that you can scaffold and test the functionality quickly.
 Leave this as is if you only need to demo or validate the chat functionality as part of your project.
 If you need to have your own private chats, be able to login multiple users etc then go to https://www.ethora.com/, sign up in the top right which gives you a free account with Ethora backend where you can create your own App, manage your Users and Chats, view stats etc. Copy App ID & App Secret to your chat component code which will then switch to your own App context on the server side. The free tier is generous but should you need extra you can later build your own backend, upgrade to a paid tier from Ethora or use a self-hosted AWS marketplace image from Ethora.
 
@@ -117,7 +117,7 @@ with:
 ℹ️ Note:
 There is also a prop CustomMessageComponent: React.ComponentType<MessageProps>
 This prop is used to fully change styles of messageBubble.
-You can find an example here: https://github.com/dappros/ethora-chat-component/blob/main/src/components/ExampleComponents/CustomMessage.tsx
+You can find an example here: https://github.com/YusukeM317/ChatRoom_ERC721_ERC1155_Integration/blob/main/src/components/ExampleComponents/CustomMessage.tsx
 
 For styling you can alter **App.css**:
 
@@ -144,9 +144,6 @@ body {
 
 After these changes you can modify **MainComponentStyles** for your chat.
 
-## Architecture Diagram
-
-![CleanShot 2025-01-09 at 13 14 37@2x](https://github.com/user-attachments/assets/4d187bbb-6697-4e96-97d3-3a4a4b7e8adf)
 
 ## Use cases and functionalities details
 
@@ -161,12 +158,6 @@ Supported out of the box:
 - **E-mail + password** ✅
 - **Google SSO** ✅
 
-Supported by Ethora platform but not implemented into Chat Component yet:
-
-- **Custom set of credentials** ✅
-- **Apple SSO** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub>
-- **Facebook SSO** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub>
-- **Metamask SSO** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub>
 
 ### CHAT FUNCTIONALITY
 
@@ -197,31 +188,14 @@ Supported by Ethora platform but not implemented into Chat Component yet:
 
 - **Basic avatars** ✅ - in chat screen, users can see basic avatars next to chat bubbles. Simply default avatar icon for everyone.
 - **"Initials" avatars** ✅ - in Chat scree, users who don't have photos uploaded will show as "initials" avatars generated by taking the first letter of User's first name and last name
-- **Google SSO avatars** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub> - when using Google SSO, their Google profile photo will be automatically displayed as chat avatar
+- **Google SSO avatars** 🚧 when using Google SSO, their Google profile photo will be automatically displayed as chat avatar
 - **Custom profile photos** ✅ - users are able to upload their custom photos when managing their Profile and the mini-photo will be displayed as a chat avatar
 
 #### Notifications
 
-- **Browser and mobile push notifications** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub> - push notifications are useful to alert the User about new messages or transactions related to them when they are not actively using your app / chat in the browser.
+- **Browser and mobile push notifications**  push notifications are useful to alert the User about new messages or transactions related to them when they are not actively using your app / chat in the browser.
 
 ### FILE ATTACHMENTS
 
 - **File attachments** ✅ - file attachments, previews, media attachments, audio/video player etc currently are work in progress for chat component
 
-### USER PROFILES AND DIGITAL WALLET FUNCTIONALITY
-
-- **Profile screen** ✅ - users can see their own and other Users Profile screens by tapping their avatar in Chat. Profile includes Photo, name, description, direct message button and profile share link
-- **Profile Assets (Digital Wallet)** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub> - Users can view assets (Documents, art/collectables, Coins) within their own profile or profiles of other Users, depending on App-wide and User-specific visibility settings
-- **Profile Asset: Coins** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub> - Coins, Points, Stars (you can call this anything in your project) are a rewards system where Users and Bots can reward individual messages of other Users
-- **Profile Asset: Documents** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub> - Documents in Profiles support use cases where certain User (or bot / business page) need to display certain documents and their provenance history. E.g. business / educational / medical certificates, case-related documents, contracts etc.
-- **Profile Asset: Media (audio, video) files** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub> - Media files playable right from Profiles.
-- **Profile Asset: Digital Art (collectables / NFT)** 🚧 <sub><sup>(available in [Ethora git repo](https://github.com/dappros/ethora))</sup></sub> - For projects which support rewarding Users with unique digital collectables and/or allowing Users to upload/mint, distribute or trade digital art or collectables.
-
-## Contacts, Documentation and Technical Support
-
-- Community support forum: https://forum.ethora.com/
-- Discord: https://discord.gg/Sm6bAHA3ZC
-- Contact Ethora team: https://www.ethora.com/#contact
-- Documentation main: https://docs.ethora.com/
-- Documentation for Ethora API (Swagger): https://api.ethoradev.com/api-docs
-- Documentation on github including chat protocol and bots: https://github.com/dappros/ethora/tree/main/api

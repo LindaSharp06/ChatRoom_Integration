@@ -1,6 +1,6 @@
-# Ethora Chat Component Protocol Flow
+# Chat Component Protocol Flow
 
-This document describes the complete client-server interaction flow in the Ethora chat system, from user authentication to message handling.
+This document describes the complete client-server interaction flow in the chat system, from user authentication to message handling.
 
 ## 1. Authentication and Connection
 

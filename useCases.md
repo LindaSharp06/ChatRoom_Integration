@@ -1,4 +1,4 @@
-# Ethora chat component:
+# Chat component:
 
 ##To test it locally
 

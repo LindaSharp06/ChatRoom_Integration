@@ -135,3 +135,19 @@ export default function App() {
     </XmppProvider>
   );
 }
+
+
+// import { Chat } from "@ethora/chat-component";
+// import "./App.css";
+// const ChatComponent = Chat as any;
+
+// function App() {
+//     return <ChatComponent />;
+// //  return (
+// //     <div>
+// //       <Chat />
+// //     </div>
+// //  );
+// }
+
+// export default App;
